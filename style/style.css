@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-.btn-contain{
+.contain{
     text-align: center;
 }
 #hero{
@@ -15,12 +15,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 
 }
 #hero .hero-content{
     width: 685px;
-    margin: 0 auto;
 
 }
 #hero .hero-content .subtitle{
@@ -32,6 +30,7 @@ line-height: 38px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.8;
+margin-bottom: 10px;
 }
 #hero .hero-content .title{
     color: rgb(255, 255, 255);
@@ -41,6 +40,7 @@ font-weight: 700;
 line-height: 50px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 14px;
 }
 #hero .hero-content .description{
     color: rgb(255, 255, 255);
@@ -51,35 +51,19 @@ line-height: 16px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
+margin-bottom: 32px;
 }
 .btn{
-/* Shop The Hotest Food */
-position: static;
-width: 215px;
-height: 24px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 14px 18px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 10px;
-
-color: rgb(255, 255, 255);
-font-family: Work Sans;
-font-size: 12px;
-font-weight: 600;
-line-height: 16px;
-letter-spacing: 0%;
-text-align: center;
-
-border-radius: 8px;
-border: none;
-background: rgb(82, 195, 3);
+    padding: 14px 18px 14px 18px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 0;
 }
+    
